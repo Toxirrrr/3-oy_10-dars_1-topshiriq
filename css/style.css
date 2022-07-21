@@ -1,0 +1,29 @@
+body {
+    background-color: orange;
+}
+
+#list {
+    justify-content: center;
+    margin-top: 200px;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+li {
+    width: 200px;
+    transition: all ease 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all ease 3s;
+}
+li:hover {
+    transform: rotate(9999999999999999deg);
+}
+img {
+    border-radius: 20px;
+}
+p {
+    color: rgb(47, 4, 87);
+    text-align: center;
+}
